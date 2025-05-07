@@ -17,26 +17,22 @@
 
           1. Clona el repositorio:
 
-            ```bash
-            git clone https://github.com/tuusuario/auth-clerk-app.git
-            ```
+
+            git clone https://github.com/walner-prog/APP-AUTH-CLERK-NEXT.git
 
           2. Instala las dependencias:
 
-            ```bash
+            
             cd auth-clerk-app
-            npm install
-            ```
+            
+           
 
           3. Configura tus credenciales de Clerk:
             - Crea un archivo `.env.local` en la raíz del proyecto.
             - Añade tus claves API y configuraciones necesarias. Ejemplo:
 
-            ```
+          
             NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=tu-clave-publicable
             CLERK_SECRET_KEY=tu-clave-secreta
-            ```
-
-          ## Ejecución en Desarrollo
-
-          Para iniciar el servidor de desarrollo:
+            
+ 
