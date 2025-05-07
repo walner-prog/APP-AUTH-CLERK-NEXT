@@ -90,6 +90,16 @@ export default function Home () {
             </li>
           </ul>
         </div>
+        <div className='flex gap-4 items-center flex-col sm:flex-row text-center text-gray-500 dark:text-gray-400'>
+          <p className='text-lg text-center justify-content-center text-gray-500 dark:text-gray-400'>
+            Esta aplicación es un ejemplo de cómo utilizar Next.js y Clerk para
+            crear una aplicación web moderna y segura.
+          </p>
+          <p className='text-lg text-center justify-content-center text-gray-500 dark:text-gray-400'>
+            Puedes explorar el código fuente en GitHub y contribuir al
+            desarrollo de la aplicación.
+          </p>
+        </div>
       </main>
     </div>
   )
